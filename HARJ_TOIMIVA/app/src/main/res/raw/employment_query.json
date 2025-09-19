@@ -1,0 +1,28 @@
+{
+  "query": [
+    {
+      "code": "Tiedot",
+      "selection": {
+        "filter": "item",
+        "values": [ "tyollisyysaste" ]
+      }
+    },
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "item",
+        "values": [ "haettu kuntakoodi" ]
+      }
+    },
+    {
+      "code": "Vuosi",
+      "selection": {
+        "filter": "top",
+        "values": [ "1" ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:backgroundTint="@android:color/white">
+
+    <TextView
+        android:id="@+id/searchHistoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example history item"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="@android:color/black" />
+</androidx.cardview.widget.CardView>
